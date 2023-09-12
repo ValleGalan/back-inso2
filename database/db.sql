@@ -1,0 +1,8 @@
+CREATE DATABASE inso2db
+
+CREATE TABLE usuario(
+  id SERIAL PRIMARY KEY,
+  nombre VARCHAR(255),
+  apellido VARCHAR(255)
+
+ );
